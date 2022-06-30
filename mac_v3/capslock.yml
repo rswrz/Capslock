@@ -1254,22 +1254,22 @@ rules:
 
 
       #==========================================================#
-      # ( e ) --> safari / finder / mail                         #
+      # ( e ) --> firefox / finder / outlook                     #
       #==========================================================#
       - description: 'command + e = finder'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a finder } ]
 
-      - description: 'option + e = mail'
+      - description: 'option + e = outlook'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a mail } ]
+        to: [ { shell_command: open -a 'Microsoft Outlook' } ]
 
-      - description: 'e = safari'
+      - description: 'e = firefox'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Safari } ]
+        to: [ { shell_command: open -a Firefox } ]
 
 
       #==========================================================#
@@ -1291,17 +1291,17 @@ rules:
         to: [ { shell_command: open -a iTerm } ]
 
       #==========================================================#
-      # ( t ) --> vscode / typora / notes                        #
+      # ( t ) --> vscode / sublime / ticktick                    #
       #==========================================================#
-      - description: 'command + t = typora'
+      - description: 'command + t = sublime'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Typora } ]
+        to: [ { shell_command: open -a 'Sublime Text' } ]
 
-      - description: 'option + t = notes'
+      - description: 'option + t = ticktick'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a notes } ]
+        to: [ { shell_command: open -a TickTick } ]
 
       - description: 't = vscode'
         type: basic
@@ -1309,25 +1309,25 @@ rules:
         to: [ { shell_command: open -a 'Visual Studio Code' } ]
 
       #==========================================================#
-      # ( y ) --> siri / karabiner / amphetamine                 #
+      # ( y ) --> teams / signal / whatsapp                      #
       #==========================================================#
-      - description: 'command + y = karabiner'
+      - description: 'command + y = signal'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Karabiner-Elements } ]
+        to: [ { shell_command: open -a Signal } ]
 
-      - description: 'option + y = amphetamine'
+      - description: 'option + y = whatsapp'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a amphetamine } ]
+        to: [ { shell_command: open -a WhatsApp } ]
 
-      - description: 'y = Siri'
+      - description: 'y = teams'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Siri } ]
+        to: [ { shell_command: open -a 'Microsoft Teams' } ]
 
       #==========================================================#
-      # ( f ) --> alfred 4 / Dash / Dictionary                   #
+      # ( f ) --> keeper / Dash / Dictionary                     #
       #==========================================================#
       - description: 'command + f = Dash'
         type: basic
@@ -1339,10 +1339,10 @@ rules:
         from: { key_code: f, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Dictionary } ]
 
-      - description: 'f = Alfred 4'
+      - description: 'f = keeper'
         type: basic
         from: { key_code: f, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Alfred 4' } ]
+        to: [ { shell_command: open -a 'Keeper Password Manager' } ]
 
       #==========================================================#
       # ( g ) --> idea / chrome / calender                       #

@@ -4798,7 +4798,7 @@
           ]
         },
         {
-          "description": "option + e = mail",
+          "description": "option + e = outlook",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4814,12 +4814,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a mail"
+              "shell_command": "open -a 'Microsoft Outlook'"
             }
           ]
         },
         {
-          "description": "e = safari",
+          "description": "e = firefox",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,7 +4834,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a Firefox"
             }
           ]
         },
@@ -4901,7 +4901,7 @@
           ]
         },
         {
-          "description": "command + t = typora",
+          "description": "command + t = sublime",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4917,12 +4917,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Typora"
+              "shell_command": "open -a 'Sublime Text'"
             }
           ]
         },
         {
-          "description": "option + t = notes",
+          "description": "option + t = ticktick",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4938,7 +4938,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a notes"
+              "shell_command": "open -a TickTick"
             }
           ]
         },
@@ -4963,7 +4963,7 @@
           ]
         },
         {
-          "description": "command + y = karabiner",
+          "description": "command + y = signal",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -4979,12 +4979,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Karabiner-Elements"
+              "shell_command": "open -a Signal"
             }
           ]
         },
         {
-          "description": "option + y = amphetamine",
+          "description": "option + y = whatsapp",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -5000,12 +5000,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a amphetamine"
+              "shell_command": "open -a WhatsApp"
             }
           ]
         },
         {
-          "description": "y = Siri",
+          "description": "y = teams",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -5020,7 +5020,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Siri"
+              "shell_command": "open -a 'Microsoft Teams'"
             }
           ]
         },
@@ -5067,7 +5067,7 @@
           ]
         },
         {
-          "description": "f = Alfred 4",
+          "description": "f = keeper",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5082,7 +5082,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Alfred 4'"
+              "shell_command": "open -a 'Keeper Password Manager'"
             }
           ]
         },

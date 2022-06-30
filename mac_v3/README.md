@@ -1,4 +1,4 @@
-# Capslock Enhancement (mac v3) 
+# Capslock Enhancement (mac v3)
 
 
 
@@ -14,10 +14,10 @@ Capslock serves via  [**Karabiner-Elements**](https://karabiner-elements.pqrs.or
    ```yaml
    # Capslock Mac V3 (this repo)
    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac_v3/capslock.json
-   
+
    # Capslock Official Site (v3)
    karabiner://karabiner/assets/complex_modifications/import?url=https://vonng.com/capslock.json
-   
+
    # Karabiner-Elements Offical Script Gallery (v3)
    karabiner://karabiner/assets/complex_modifications/import?url=https://pqrs.org/osx/karabiner/complex_modifications/json/caps_lock_enhancement.json
    ```
@@ -58,13 +58,13 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 |   <kbd>✱</kbd><kbd>⎋</kbd>    | <kbd>⇪</kbd> Capslock | Press to switch Capslock status |
 |   <kbd>✱</kbd><kbd>␣</kbd>    |     <kbd>⌃</kbd><kbd>␣</kbd>     | Switch input source, +<kbd>⌘</kbd> to emoji                   |
 
-Note that <kbd>✱</kbd> is implemented as combination of **ALL RIGHT MODIFIERS**:  <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd>. 
+Note that <kbd>✱</kbd> is implemented as combination of **ALL RIGHT MODIFIERS**:  <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd>.
 
 Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume and omit that in subsequent document.
 
 ### Navigation
 
-* <kbd>H</kbd>, <kbd>J</kbd>, <kbd>K</kbd>, <kbd>L</kbd>, <kbd>U</kbd>, <kbd>I</kbd>, <kbd>O</kbd>, <kbd>P</kbd> are used as **Navigators**. Maps to <kbd>←</kbd><kbd>↓</kbd><kbd>↑</kbd><kbd>→</kbd><kbd>⇞</kbd><kbd>↖</kbd><kbd>↘</kbd><kbd>⇟</kbd> by default. (pink area). 
+* <kbd>H</kbd>, <kbd>J</kbd>, <kbd>K</kbd>, <kbd>L</kbd>, <kbd>U</kbd>, <kbd>I</kbd>, <kbd>O</kbd>, <kbd>P</kbd> are used as **Navigators**. Maps to <kbd>←</kbd><kbd>↓</kbd><kbd>↑</kbd><kbd>→</kbd><kbd>⇞</kbd><kbd>↖</kbd><kbd>↘</kbd><kbd>⇟</kbd> by default. (pink area).
 * 9 control planes has already been allocated for navigators.
 * Hold additional <kbd>⌘</kbd> Command for **selection**.  (like holding <kbd>⇧</kbd>shift in normal), additional <kbd>⌥</kbd> Option for **word/para selection**.
 * Hold additional <kbd>⇧</kbd> Shift for **app/win/tab switching**.  Hold additional <kbd>⌃</kbd> Control for **desktop management** .
@@ -101,7 +101,7 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 ### Deletion
 
- <kbd>N</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd>  are used as **Deletor keys**. Right below the navigators for fast access (brown area). 
+ <kbd>N</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd>  are used as **Deletor keys**. Right below the navigators for fast access (brown area).
 
 | Key\Mod |        <kbd>✱</kbd>         |         <kbd>⌘</kbd>          |         <kbd>⌥</kbd>          |
 | :-----: | :--------------: | :----------------: | :----------------: |
@@ -157,11 +157,11 @@ Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume a
 
 | Key\Mod |         <kbd>✱</kbd>          |     <kbd>⌘</kbd>     |      <kbd>⌥</kbd>      |
 | :-----: | :----------------: | :-------: | :---------: |
-|    <kbd>E</kbd>    |       Safari       |  Finder   |    Mail     |
+|    <kbd>E</kbd>    |       Firefox      |  Finder   |  Outlook    |
 |    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
-|    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
-|    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
+|    <kbd>T</kbd>    | Visual Studio Code |  Sublime  |  TickTick   |
+|    <kbd>Y</kbd>    |        Team        |  Signal   |  WhatsApp   |
+|    <kbd>F</kbd>    |       Keeper       |   Dash    | Dictionary  |
 |    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
 
 
@@ -228,7 +228,7 @@ Number keys <kbd>1</kbd>, <kbd>2</kbd>, …, <kbd>9</kbd>, <kbd>0</kbd> are used
   **Preference** → **Keyboard** → **Shortcuts** → **MissionControl** → Switch to Desktop 1/2/3
 - If you are using RMBP with Bar, consider changing your bar back to function keys with:
 
-  **Karabiner-Elements** → **Function Keys** → **Use all F1, F2, etc. keys as standard function keys** 
+  **Karabiner-Elements** → **Function Keys** → **Use all F1, F2, etc. keys as standard function keys**
 
 | Key\Mod  |                  <kbd>✱</kbd>                   |  <kbd>⌘</kbd>   | Comment                              |
 | :------: | :----------------------------------: | :--: | ------------------------------------ |
