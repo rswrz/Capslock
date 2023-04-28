@@ -1345,7 +1345,7 @@ rules:
         to: [ { shell_command: open -a 'Keeper Password Manager' } ]
 
       #==========================================================#
-      # ( g ) --> idea / chrome / calender                       #
+      # ( g ) --> logseq / chrome / calender                       #
       #==========================================================#
       - description: 'command + g = Chrome'
         type: basic
@@ -1357,10 +1357,10 @@ rules:
         from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Calendar } ]
 
-      - description: 'g = Intellij IDEA'
+      - description: 'g = Logseq'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'IntelliJ IDEA' } ]
+        to: [ { shell_command: open -a Logseq } ]
 
 
 
