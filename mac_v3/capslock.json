@@ -5108,7 +5108,7 @@
           ]
         },
         {
-          "description": "option + g = Calender",
+          "description": "option + g = MacDown",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -5124,7 +5124,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Calendar"
+              "shell_command": "open -a MacDown"
             }
           ]
         },
