@@ -1324,7 +1324,7 @@ rules:
       - description: 'y = teams'
         type: basic
         from: { key_code: y, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Microsoft Teams' } ]
+        to: [ { shell_command: open -a 'Microsoft Teams (work or school)' } ]
 
       #==========================================================#
       # ( f ) --> keeper / DeepL / Dictionary                     #
