@@ -4819,7 +4819,7 @@
           ]
         },
         {
-          "description": "e = firefox",
+          "description": "e = edge",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,7 +4834,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Firefox"
+              "shell_command": "open -a LibreWolf"
             }
           ]
         },
@@ -5025,7 +5025,7 @@
           ]
         },
         {
-          "description": "command + f = DeepL",
+          "description": "command + f = Claude",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5041,7 +5041,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a DeepL"
+              "shell_command": "open -a Claude"
             }
           ]
         },
@@ -5067,7 +5067,7 @@
           ]
         },
         {
-          "description": "f = keeper",
+          "description": "f = 1password",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5082,7 +5082,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Keeper Password Manager'"
+              "shell_command": "open -a 1Password"
             }
           ]
         },
